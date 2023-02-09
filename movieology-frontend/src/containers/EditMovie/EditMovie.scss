@@ -1,0 +1,39 @@
+@use "../../styles/variables" as *;
+
+.edit-movie {
+  &__title {
+    margin: 1em auto;
+  }
+
+  &__content {
+    margin: auto;
+    width: fit-content;
+    max-width: 500px;
+  }
+
+  &__buttons {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__button {
+    display: inline-block;
+    background: $primary-color;
+    border: 1px solid darken($primary-color, 5%);
+    padding: 0.5em 2em;
+    color: $color-white;
+    margin-right: 0.5em;
+    box-shadow: inset 0px 1px 0px fadeout($color-white, 80%);
+    margin-top: 50px;
+    &:hover {
+      background: lighten($primary-color, 5%);
+    }
+    &:active {
+      background: $primary-color;
+      box-shadow: inset 0px 1px 1px fadeout($color-black, 90%);
+    }
+    &:focus {
+      outline: none;
+    }
+  }
+}

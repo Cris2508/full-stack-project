@@ -1,0 +1,18 @@
+@use "../../styles/variables" as *;
+
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 5px solid $primary-color;
+  padding-bottom: 10px;
+
+  &__item {
+    text-decoration: none;
+    font-size: 22px;
+    margin: 10px 0;
+    color: $primary-color;
+    font-weight: bolder;
+  }
+}

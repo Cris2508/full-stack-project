@@ -1,0 +1,33 @@
+.edit-movie__title {
+  margin: 1em auto;
+}
+.edit-movie__content {
+  margin: auto;
+  width: -moz-fit-content;
+  width: fit-content;
+  max-width: 500px;
+}
+.edit-movie__buttons {
+  display: flex;
+  justify-content: center;
+}
+.edit-movie__button {
+  display: inline-block;
+  background: #be1c1c;
+  border: 1px solid #a81919;
+  padding: 0.5em 2em;
+  color: #ffffff;
+  margin-right: 0.5em;
+  box-shadow: inset 0px 1px 0px fadeout(#ffffff, 80%);
+  margin-top: 50px;
+}
+.edit-movie__button:hover {
+  background: #d41f1f;
+}
+.edit-movie__button:active {
+  background: #be1c1c;
+  box-shadow: inset 0px 1px 1px fadeout(#000000, 90%);
+}
+.edit-movie__button:focus {
+  outline: none;
+}/*# sourceMappingURL=EditMovie.css.map */

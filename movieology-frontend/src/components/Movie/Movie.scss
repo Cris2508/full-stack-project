@@ -1,0 +1,23 @@
+@use "../../styles/variables" as *;
+
+.movie {
+  margin: 0 auto;
+  padding: 10px;
+  background-color: $primary-color;
+  color: $color-white;
+  border-radius: 5px;
+  height: 100%;
+
+  &__title {
+    font-size: 32px;
+    margin: 0;
+    color: $color-white;
+    text-align: center;
+  }
+
+  &__text {
+    font-size: 22px;
+    font-weight: lighter;
+    color: $color-white;
+  }
+}

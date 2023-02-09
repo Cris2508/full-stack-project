@@ -1,0 +1,19 @@
+.movie {
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #be1c1c;
+  color: #ffffff;
+  border-radius: 5px;
+  height: 100%;
+}
+.movie__title {
+  font-size: 32px;
+  margin: 0;
+  color: #ffffff;
+  text-align: center;
+}
+.movie__text {
+  font-size: 22px;
+  font-weight: lighter;
+  color: #ffffff;
+}/*# sourceMappingURL=Movie.css.map */

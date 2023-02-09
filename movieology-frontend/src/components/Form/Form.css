@@ -1,0 +1,61 @@
+.form-container {
+  width: 50%;
+  min-width: 320px;
+  max-width: 475px;
+  background: #ffffff;
+  margin: 0 auto;
+  box-shadow: 0px 2px 5px #000000;
+}
+.form-container__title {
+  width: 100%;
+  color: #e75959;
+  font-family: "open sans condensed";
+  font-size: 2em;
+  display: block;
+  background: #000000;
+  width: 100%;
+  text-transform: uppercase;
+  padding: 0.75em 1em 0.75em 1.5em;
+  box-shadow: inset 0px 1px 1px fadeout(#ffffff, 95%);
+  border: 1px solid #650f0f;
+  margin: 0;
+  font-weight: 200;
+}
+.form-container__form {
+  display: block;
+  width: 100%;
+  padding: 2em;
+}
+.form-container__input {
+  display: block;
+  margin: auto auto;
+  width: 100%;
+  margin-bottom: 2em;
+  padding: 0.5em 0;
+  border: none;
+  border-bottom: 1px solid #eaeaea;
+  padding-bottom: 1.25em;
+  color: #000000;
+}
+.form-container__input:focus {
+  outline: none;
+}
+.form-container__button {
+  display: inline-block;
+  background: #be1c1c;
+  border: 1px solid #a81919;
+  padding: 0.5em 2em;
+  color: #ffffff;
+  margin-right: 0.5em;
+  box-shadow: inset 0px 1px 0px fadeout(#ffffff, 80%);
+}
+.form-container__button:hover {
+  background: #d41f1f;
+}
+.form-container__button:active {
+  background: #be1c1c;
+  box-shadow: inset 0px 1px 1px fadeout(#000000, 90%);
+}
+.form-container__button:focus {
+  outline: none;
+}/*# sourceMappingURL=Form.css.map */

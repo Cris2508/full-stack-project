@@ -1,0 +1,15 @@
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 5px solid #be1c1c;
+  padding-bottom: 10px;
+}
+.nav__item {
+  text-decoration: none;
+  font-size: 22px;
+  margin: 10px 0;
+  color: #be1c1c;
+  font-weight: bolder;
+}/*# sourceMappingURL=Nav.css.map */

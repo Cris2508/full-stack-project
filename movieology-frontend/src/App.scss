@@ -1,0 +1,10 @@
+@use "./styles/reset";
+@use "./styles/typography";
+@use "./styles/variables" as *;
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Open+Sans:400,300,600);
+
+.layout {
+  background-color: rgb(226, 216, 216);
+  margin-top: 0;
+}
